@@ -1,0 +1,49 @@
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+th {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #bec6d4;
+    text-align: center;
+}
+
+tr th:first-child {
+    border-left: solid;
+}
+
+tr th:nth-child(3n) {
+    border-right: solid;
+}
+
+tr:first-child {
+    border-top: solid;
+}
+
+tr:nth-child(3n) {
+    border-bottom: solid;
+}
+
+input[type="text"]{
+    outline-style: none;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+#buttons {
+    margin: auto;
+    width: 15em;
+    display:flex;
+    justify-content:space-between;
+}
+
+h1 {
+    text-align: center;
+}
